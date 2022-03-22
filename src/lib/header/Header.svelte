@@ -17,8 +17,4 @@
 		justify-content: space-between;
 		padding: 1em;
 	}
-
-	.logo {
-		max-width: 150px;
-	}
 </style>

@@ -3,8 +3,9 @@
 	<p class="section__subtitle section__subtitle--work">A selection of my works</p>
 
 	<div class="portfolio">
-		<a href="#" class="portfolio__item">
+		<a href="/portfolio-item" class="portfolio__item">
 			<img src="" alt="" class="portfolio__img" />
+			<p class="portfolio-item__description">Here is something I did</p>
 		</a>
 	</div>
 </section>
@@ -28,8 +29,9 @@
 	}
 
 	.portfolio__item {
-		background: var(--clr-accent);
+		background: var(--color-accent);
 		overflow: hidden;
+		text-decoration: none;
 	}
 
 	.portfolio__item:focus {
@@ -44,5 +46,9 @@
 	.portfolio__item:focus .portfolio__img {
 		transform: scale(1.2);
 		opacity: 0.75;
+	}
+
+	.portfolio-item__description {
+		color: var(--color-light);
 	}
 </style>
