@@ -2,14 +2,16 @@
 	export let title, subtitle, src, altText;
 </script>
 
-<section class="intro">
-	<h1 class="section__title section__title--intro">
-		{@html title}
-	</h1>
-	<p class="section__subtitle section__subtitle--intro">
-		{@html subtitle}
-	</p>
-	<img {src} alt={altText} class="intro__img" />
+<section id="home">
+	<div class="intro">
+		<h1 class="section__title section__title--intro">
+			{@html title}
+		</h1>
+		<p class="section__subtitle section__subtitle--intro">
+			{@html subtitle}
+		</p>
+		<img {src} alt={altText} class="intro__img" />
+	</div>
 </section>
 
 <style>

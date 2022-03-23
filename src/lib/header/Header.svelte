@@ -14,7 +14,13 @@
 <style>
 	header {
 		display: flex;
+		align-items: center;
 		justify-content: space-between;
-		padding: 1em;
+		background-color: var(--color-dark);
+		width: 100%;
+	}
+
+	.logo h2 {
+		color: var(--color-light);
 	}
 </style>
