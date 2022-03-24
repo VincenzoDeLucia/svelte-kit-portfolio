@@ -64,14 +64,7 @@
 			background: transparent;
 			border: 0;
 			cursor: pointer;
-			position: absolute;
-			right: 1em;
-			top: 1em;
 			z-index: 101;
-		}
-
-		.nav-toggle.nav-toggle--open {
-			position: fixed;
 		}
 
 		.hamburger {
@@ -117,15 +110,25 @@
 			opacity: 0;
 		}
 
-		.nav__list {
-			flex-direction: column;
-			justify-content: space-evenly;
-
-			padding: 0;
+		.nav {
+			position: fixed;
 			z-index: 100;
+
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
 
 			transform: translateX(100%);
 			transition: transform 250ms ease-in-out;
+		}
+
+		.nav__list {
+			flex-direction: column;
+			justify-content: space-evenly;
+			padding: 0;
+			height: 100%;
+			width: 100%;
 		}
 
 		.nav__link:hover {
@@ -133,11 +136,8 @@
 		}
 
 		.nav.nav--open {
-			width: 100%;
-		}
-
-		.nav--open .nav__list {
 			transform: translateX(0%);
+			transition: transform 250ms ease-in-out;
 		}
 	}
 </style>

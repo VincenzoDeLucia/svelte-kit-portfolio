@@ -17,6 +17,7 @@
 		align-items: center;
 		justify-content: space-between;
 		background-color: var(--color-dark);
+		padding: 1em;
 		width: 100%;
 	}
 
