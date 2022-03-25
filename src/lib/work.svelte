@@ -4,7 +4,32 @@
 
 	<div class="portfolio">
 		<a href="/portfolio-item" class="portfolio__item">
-			<img src="" alt="" class="portfolio__img" />
+			<img src="../static/resources/portfolio-project.jpg" alt="" class="portfolio__img" />
+			<p class="portfolio-item__description">Here is something I did</p>
+		</a>
+
+		<a href="/portfolio-item" class="portfolio__item">
+			<img src="../static/resources/portfolio-project.jpg" alt="" class="portfolio__img" />
+			<p class="portfolio-item__description">Here is something I did</p>
+		</a>
+
+		<a href="/portfolio-item" class="portfolio__item">
+			<img src="../static/resources/portfolio-project.jpg" alt="" class="portfolio__img" />
+			<p class="portfolio-item__description">Here is something I did</p>
+		</a>
+
+		<a href="/portfolio-item" class="portfolio__item">
+			<img src="../static/resources/portfolio-project.jpg" alt="" class="portfolio__img" />
+			<p class="portfolio-item__description">Here is something I did</p>
+		</a>
+
+		<a href="/portfolio-item" class="portfolio__item">
+			<img src="../static/resources/portfolio-project.jpg" alt="" class="portfolio__img" />
+			<p class="portfolio-item__description">Here is something I did</p>
+		</a>
+
+		<a href="/portfolio-item" class="portfolio__item">
+			<img src="../static/resources/portfolio-project.jpg" alt="" class="portfolio__img" />
 			<p class="portfolio-item__description">Here is something I did</p>
 		</a>
 	</div>
@@ -26,6 +51,8 @@
 	.portfolio {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		gap: 1rem;
+		max-width: 1000px;
 	}
 
 	.portfolio__item {

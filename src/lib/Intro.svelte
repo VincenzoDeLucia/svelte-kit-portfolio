@@ -30,7 +30,6 @@
 
 	.section__subtitle--intro {
 		background-color: var(--color-accent);
-		padding-left: 50%;
 	}
 
 	@media (min-width: 600px) {
@@ -54,6 +53,7 @@
 		}
 
 		.section__subtitle--intro {
+			padding-left: 50%;
 			align-self: start;
 			grid-column: -1 / 1;
 			grid-row: 2;
