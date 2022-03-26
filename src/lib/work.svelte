@@ -51,7 +51,7 @@
 	.portfolio {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-		gap: 1rem;
+		gap: 2em;
 		max-width: 1000px;
 	}
 

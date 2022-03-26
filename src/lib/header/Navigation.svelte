@@ -17,16 +17,16 @@
 <nav class="nav" class:nav--open={navOpen}>
 	<ul class="nav__list">
 		<li class="nav__item" on:click={onNavToggle}>
-			<a href="#home" class="nav__link">Home</a>
+			<a href="/#home" class="nav__link">Home</a>
 		</li>
 		<li class="nav__item" on:click={onNavToggle}>
-			<a href="#services" class="nav__link">My Services</a>
+			<a href="/#services" class="nav__link">My Services</a>
 		</li>
 		<li class="nav__item" on:click={onNavToggle}>
-			<a href="#about" class="nav__link">About me</a>
+			<a href="/#about" class="nav__link">About me</a>
 		</li>
 		<li class="nav__item" on:click={onNavToggle}>
-			<a href="#work" class="nav__link">My Work</a>
+			<a href="/#work" class="nav__link">My Work</a>
 		</li>
 	</ul>
 </nav>

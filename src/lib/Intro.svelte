@@ -1,8 +1,8 @@
 <script>
-	export let title, subtitle, src, altText;
+	export let id, title, subtitle, src, altText;
 </script>
 
-<section id="home">
+<section {id}>
 	<div class="intro">
 		<h1 class="section__title section__title--intro">
 			{@html title}
@@ -57,7 +57,7 @@
 			align-self: start;
 			grid-column: -1 / 1;
 			grid-row: 2;
-			text-align: right;
+			text-align: end;
 			position: relative;
 			left: -1.5em;
 			width: calc(100% + 1.5em);

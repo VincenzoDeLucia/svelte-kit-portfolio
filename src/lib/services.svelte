@@ -2,22 +2,26 @@
 	<h2 class="section__title section__title--services">What I do</h2>
 	<div class="my-services__descriptions">
 		<div class="service">
-			<h3>Design</h3>
+			<h3>Development</h3>
 			<p>
-				No… but I'd like to be asked! Not tricks, Michael, illusions. Michael! He'll want to use
-				your yacht, and I don't want this thing smelling like fish. Marry me. He'll want to use your
-				yacht, and I don't want this thing smelling like fish. What's Spanish for "I know you speak
-				English?" That's why you always leave a note! We just call it a sausage.
+				I use <strong>Html</strong>, <strong>CSS</strong> and <strong>Javascript</strong> a daily
+				basis for my work as well as my personal projects. I have work experience with
+				<strong>React</strong>
+				and <strong>Twig</strong>, whereas this website is built with
+				<strong>SvelteKit</strong>. My approach to development is driven by the desire to
+				continuously acquire new skills, regardless of whether that means going really deep on one
+				specific topic or learn something completely new.
 			</p>
 		</div>
 
 		<div class="service">
-			<h3>Development</h3>
+			<h3>Design</h3>
 			<p>
-				The way I see it, every life is a pile of good things and bad things.…hey.…the good things
-				don't always soften the bad things; but vice-versa the bad things don't necessarily spoil
-				the good things and make them unimportant. No… It's a thing; it's like a plan, but with more
-				greatness. You know how I sometimes have really brilliant ideas?
+				<strong>UI Design</strong> is something I am deeply drawn to and my tool of choice is
+				<strong>Figma</strong>. I work on maintaining and expanding <strong>design systems</strong>
+				and <strong>component libraries</strong>, as well as crafting
+				<strong>design languages</strong> to help bring products to life. I aim to create resilient designs
+				that offer a solid core experience with custom, broswer-specific or device-specific enhancements.
 			</p>
 		</div>
 	</div>

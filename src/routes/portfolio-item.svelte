@@ -3,6 +3,7 @@
 </script>
 
 <Intro
+	id="portfolio-item"
 	title={'<strong>Example project<strong>'}
 	subtitle={"I swear I'll get to it eventually"}
 	src={'../static/resources/portfolio-project.jpg'}
