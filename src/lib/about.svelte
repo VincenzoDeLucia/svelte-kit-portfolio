@@ -9,13 +9,14 @@
 			<p>
 				I have always been fascinated by the way people interact with any kind technology. I try to
 				be mindful of things we may give for granted even though they are the result of exceptional
-				thought and effort.
+				thought and effort. This is what sparked my interest in the Web, a space in which I found
+				personal growth, countless opportunities and even life-long friendships.
 			</p>
 			<p>
 				The Web shapes societies in ways that are a direct reflection of how inclusive, democratic
-				and accessible it is. I believe in its potential to be a great, unifying force and one of
-				the greatest catalysts for human progress. This is why I like curating experiences and
-				crafting interfaces that are accessible, functional and performant.
+				and accessible the platform itself is. I believe in its potential to be a great, unifying
+				force and one of the greatest catalysts for human progress. This is why I like curating
+				experiences and crafting interfaces that are accessible, functional and performant.
 			</p>
 		</div>
 

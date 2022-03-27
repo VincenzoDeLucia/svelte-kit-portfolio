@@ -53,6 +53,8 @@
 		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 		gap: 2em;
 		max-width: 1000px;
+		width: calc(100% - 4em);
+		justify-content: center;
 	}
 
 	.portfolio__item {
