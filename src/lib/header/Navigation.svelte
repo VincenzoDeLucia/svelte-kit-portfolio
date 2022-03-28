@@ -64,7 +64,7 @@
 			background: transparent;
 			border: 0;
 			cursor: pointer;
-			z-index: 101;
+			/* z-index: 101; */
 		}
 
 		.hamburger {
@@ -112,7 +112,7 @@
 
 		.nav {
 			position: fixed;
-			z-index: 100;
+			/* z-index: 100; */
 
 			top: 0;
 			right: 0;
