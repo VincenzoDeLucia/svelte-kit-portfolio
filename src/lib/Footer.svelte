@@ -21,8 +21,11 @@
 
 <style>
 	.footer {
-		background-color: #111;
-		color: var(--color-accent);
+		position: relative;
+		bottom: 0;
+		left: 0;
+		background-color: var(--color-dark);
+		color: var(--color-interactivity);
 		text-align: center;
 		padding: 0.5em 1em;
 		font-size: var(--font-size-h3);
@@ -43,7 +46,7 @@
 	.web-presence {
 		list-style: none;
 		display: flex;
-		justify-content: center;
+		align-items: center;
 		gap: 1rem;
 		margin: 0;
 		padding: 0;

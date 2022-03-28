@@ -47,6 +47,11 @@
 		font-weight: var(--font-weight-bold);
 		font-size: var(--font-size-h3);
 		text-decoration: none;
+		color: var(--color-interactivity);
+	}
+
+	.nav__link:hover {
+		opacity: 0.75;
 	}
 
 	.nav__item {
@@ -64,7 +69,7 @@
 			background: transparent;
 			border: 0;
 			cursor: pointer;
-			/* z-index: 101; */
+			z-index: 101;
 		}
 
 		.hamburger {
@@ -75,7 +80,7 @@
 		.hamburger,
 		.hamburger:before,
 		.hamburger:after {
-			background-color: var(--color-accent);
+			background-color: var(--color-interactivity);
 			width: 2em;
 			height: 3px;
 			border-radius: 1em;
@@ -112,7 +117,7 @@
 
 		.nav {
 			position: fixed;
-			/* z-index: 100; */
+			z-index: 100;
 
 			top: 0;
 			right: 0;
@@ -129,10 +134,6 @@
 			padding: 0;
 			height: 100%;
 			width: 100%;
-		}
-
-		.nav__link:hover {
-			color: var(--color-accent);
 		}
 
 		.nav.nav--open {

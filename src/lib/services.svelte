@@ -50,8 +50,7 @@
 		width: 2em;
 		height: 1px;
 		margin: 0.5em auto 1em;
-		background-color: var(--color-light);
-		opacity: 0.25;
+		background-color: var(--color-accent);
 	}
 
 	.my-services__descriptions {

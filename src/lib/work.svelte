@@ -58,7 +58,7 @@
 	}
 
 	.portfolio__item {
-		background: var(--color-accent);
+		background: var(--color-interactivity);
 		overflow: hidden;
 		text-decoration: none;
 	}
@@ -78,6 +78,6 @@
 	}
 
 	.portfolio-item__description {
-		color: var(--color-light);
+		color: var(--color-dark);
 	}
 </style>
