@@ -7,8 +7,8 @@
 
 <Intro
 	id="home"
-	title={'Hi, I am<br/><strong>Vincenzo De Lucia</strong>'}
-	subtitle={'front-end developer <br /> UX/UI designer'}
+	title={'Hi, I am<br/><strong>Vincenzo</strong>'}
+	subtitle={'front-end dev<br />UI designer'}
 	src={'../static/resources/profile-pic.jpeg'}
 	altText={'A picture of Vincenzo De Lucia'}
 />

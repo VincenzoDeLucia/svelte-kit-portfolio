@@ -2,7 +2,7 @@
 	<div class="about-me">
 		<h2 class="section__title section__title--about">Who I am</h2>
 		<p class="section__subtitle section__subtitle--about">
-			Designer<br />web developer<br />a11y enthusiast
+			web developer<br />designer<br />a11y enthusiast
 		</p>
 
 		<div class="about-me__body">
@@ -51,6 +51,7 @@
 
 		.section__title--about {
 			grid-area: title;
+			padding-left: 0;
 		}
 
 		.section__subtitle--about {

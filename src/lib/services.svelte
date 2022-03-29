@@ -37,6 +37,10 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		background-image: url('../../static/resources/background-image.jpg');
+		background-size: cover;
+		background-position: center;
+		background-blend-mode: multiply;
 	}
 
 	.section__title--services {

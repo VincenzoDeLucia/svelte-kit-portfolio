@@ -28,6 +28,25 @@
 		<li class="nav__item" on:click={onNavToggle}>
 			<a href="/#work" class="nav__link">My Work</a>
 		</li>
+		<li class="nav__item nav__item--web-presence">
+			<a
+				href="mailto:vincenzo.delucia@icloud.com"
+				class="footer__link"
+				alt="Vincenzo De Lucia's email"
+			>
+				<i class="fa-solid fa-envelope" />
+			</a>
+			<a
+				href="https://www.linkedin.com/in/vincenzo-de-lucia/"
+				class="footer__link"
+				alt="LinkedIn profile"
+			>
+				<i class="fa-brands fa-linkedin" />
+			</a>
+			<a href="https://github.com/VincenzoDeLucia" class="footer__link" alt="GitHub profile"
+				><i class="fa-brands fa-github" />
+			</a>
+		</li>
 	</ul>
 </nav>
 
@@ -59,6 +78,10 @@
 	}
 
 	.nav-toggle {
+		display: none;
+	}
+
+	.nav__item--web-presence {
 		display: none;
 	}
 
@@ -139,6 +162,13 @@
 		.nav.nav--open {
 			transform: translateX(0%);
 			transition: transform 250ms ease-in-out;
+		}
+
+		.nav__item--web-presence {
+			font-size: var(--font-size-h2);
+			display: flex;
+			align-items: center;
+			gap: 2em;
 		}
 	}
 </style>

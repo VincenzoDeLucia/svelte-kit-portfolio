@@ -53,14 +53,21 @@
 		}
 
 		.section__subtitle--intro {
-			padding-left: 50%;
+			padding-left: calc(50% + 3em);
+			padding-right: 1em;
 			align-self: start;
 			grid-column: -1 / 1;
 			grid-row: 2;
-			text-align: end;
+			text-align: start;
 			position: relative;
-			left: -1.5em;
-			width: calc(100% + 1.5em);
+			left: -1em;
+			width: calc(100% + 2em);
+		}
+	}
+
+	@media (min-width: 800px) {
+		.section__subtitle--intro {
+			padding-left: 50%;
 		}
 	}
 </style>

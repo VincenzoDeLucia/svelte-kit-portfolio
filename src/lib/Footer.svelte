@@ -21,10 +21,11 @@
 
 <style>
 	.footer {
-		position: relative;
+		background-color: var(--color-dark);
+		width: 100%;
+		position: sticky;
 		bottom: 0;
 		left: 0;
-		background-color: var(--color-dark);
 		color: var(--color-interactivity);
 		text-align: center;
 		padding: 0.5em 1em;
@@ -32,6 +33,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		z-index: 10;
 	}
 
 	.footer a {
@@ -59,6 +61,12 @@
 	}
 
 	@media (max-width: 800px) {
+		.footer {
+			position: static;
+		}
+	}
+
+	@media (max-width: 900px) {
 		.footer {
 			flex-direction: column;
 		}

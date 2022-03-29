@@ -27,5 +27,6 @@
 
 	.logo h2 {
 		color: var(--color-light);
+		max-height: 3.75rem;
 	}
 </style>

@@ -37,7 +37,6 @@
 
 <style>
 	.my-work {
-		background-color: var(--color-dark);
 		color: var(--color-light);
 		text-align: center;
 	}

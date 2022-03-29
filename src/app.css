@@ -38,6 +38,9 @@
 /* Global styles */
 html {
 	scroll-behavior: smooth;
+	scroll-padding-top: calc(
+		2em + var(--font-size-h2)
+	); /* padding-top: 1em +  padding-bottom: 1em + logo height */
 }
 
 html,
@@ -45,18 +48,25 @@ body {
 	position: relative;
 	width: 100%;
 	height: 100%;
-	background-color: var(--color-light);
-	color: var(--color-dark);
+	background-color: var(--color-dark);
+	color: var(--color-light);
 	font-family: var(--font-family-primary);
 	font-size: var(--font-size-body);
 	line-height: 1.6;
 }
 
+a,
+a:visited {
+	color: var(--color-interactivity);
+}
+
 section {
-	padding: 5em 2em;
+	padding: 2.5em 2em;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 	align-items: center;
+	min-height: calc(100vh - 3.75rem);
 }
 
 img {
@@ -90,7 +100,8 @@ h3 {
 	font-size: var(--font-size-h3);
 }
 
-.btn {
+a.btn,
+button.btn {
 	display: inline-block;
 	padding: 0.5em 2.5em;
 	background-color: var(--color-interactivity);
@@ -116,6 +127,13 @@ h3 {
 	margin: 0;
 	font-size: var(--font-size-h3);
 	font-family: var(--font-family-secondary);
+	color: var(--color-dark);
 	margin-bottom: 1em;
 	padding: 0.25rem 1rem;
+}
+
+@media (min-width: 800px) {
+	section {
+		min-height: calc(100vh - 3.75rem - 2em - 2.5em);
+	}
 }
