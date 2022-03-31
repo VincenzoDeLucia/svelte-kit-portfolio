@@ -38,6 +38,10 @@
 		box-shadow: var(--box-shadow);
 	}
 
+	.about-me__body {
+		padding: 0 1em;
+	}
+
 	@media (min-width: 600px) {
 		.about-me {
 			display: grid;
@@ -69,9 +73,6 @@
 			grid-column: 2;
 			position: relative;
 			z-index: 2;
-		}
-
-		.about-me__img {
 			grid-area: img;
 		}
 	}

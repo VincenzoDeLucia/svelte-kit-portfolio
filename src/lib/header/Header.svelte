@@ -4,8 +4,8 @@
 
 <header>
 	<div class="logo">
-		<img src="" alt="" />
-		<h2>LOGO</h2>
+		<!-- <img src="" alt="" /> -->
+		<p class="logo__placeholder">VDL</p>
 	</div>
 
 	<Navigation />
@@ -25,8 +25,11 @@
 		z-index: 10;
 	}
 
-	.logo h2 {
+	.logo__placeholder {
 		color: var(--color-light);
 		max-height: 3.75rem;
+		font-size: var(--font-size-h2);
+		font-weight: var(--font-weight-bold);
+		margin: 0;
 	}
 </style>

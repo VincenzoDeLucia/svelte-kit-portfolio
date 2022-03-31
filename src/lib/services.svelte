@@ -4,13 +4,12 @@
 		<div class="service">
 			<h3>Development</h3>
 			<p>
-				I use <strong>Html</strong>, <strong>CSS</strong> and <strong>Javascript</strong> a daily
+				I use <strong>Html</strong>, <strong>CSS</strong> and <strong>Javascript</strong> on a daily
 				basis for my work as well as my personal projects. I have work experience with
 				<strong>React</strong>
 				and <strong>Twig</strong>, whereas this website is built with
-				<strong>SvelteKit</strong>. My approach to development is driven by the desire to
-				continuously acquire new skills, regardless of whether that means going really deep on one
-				specific topic or learn something completely new.
+				<strong>SvelteKit</strong>. My approach to development is driven by my innate curiosity and
+				the desire to continuously acquire new skills through experimentation.
 			</p>
 		</div>
 
