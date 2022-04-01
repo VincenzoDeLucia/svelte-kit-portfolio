@@ -31,5 +31,6 @@
 		font-size: var(--font-size-h2);
 		font-weight: var(--font-weight-bold);
 		margin: 0;
+		line-height: 1;
 	}
 </style>

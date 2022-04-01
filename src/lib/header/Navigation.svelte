@@ -1,7 +1,13 @@
 <script>
 	let navOpen = false;
+	let selected = 'home';
 	const onNavToggle = () => {
 		navOpen = !navOpen;
+	};
+
+	const onNavItemClick = (item, targetElement) => {
+		selected = item;
+		onNavToggle();
 	};
 </script>
 
@@ -16,16 +22,40 @@
 
 <nav class="nav" class:nav--open={navOpen}>
 	<ul class="nav__list">
-		<li class="nav__item" on:click={onNavToggle}>
+		<li
+			class="nav__item"
+			class:nav__item--underline={selected === 'home'}
+			on:click={({ currentTarget }) => {
+				onNavItemClick('home', currentTarget);
+			}}
+		>
 			<a href="/#home" class="nav__link">Home</a>
 		</li>
-		<li class="nav__item" on:click={onNavToggle}>
+		<li
+			class="nav__item"
+			class:nav__item--underline={selected === 'services'}
+			on:click={({ target }) => {
+				onNavItemClick('services', target);
+			}}
+		>
 			<a href="/#services" class="nav__link">My Services</a>
 		</li>
-		<li class="nav__item" on:click={onNavToggle}>
+		<li
+			class="nav__item"
+			class:nav__item--underline={selected === 'about'}
+			on:click={({ target }) => {
+				onNavItemClick('about', target);
+			}}
+		>
 			<a href="/#about" class="nav__link">About me</a>
 		</li>
-		<li class="nav__item" on:click={onNavToggle}>
+		<li
+			class="nav__item"
+			class:nav__item--underline={selected === 'work'}
+			on:click={({ target }) => {
+				onNavItemClick('work', target);
+			}}
+		>
 			<a href="/#work" class="nav__link">My Work</a>
 		</li>
 		<li class="nav__item nav__item--web-presence">
