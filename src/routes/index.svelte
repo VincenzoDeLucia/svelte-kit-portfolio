@@ -9,7 +9,7 @@
 	id="home"
 	title={'Hi, I am<br/><strong>Vincenzo</strong>'}
 	subtitle={'front-end dev<br />UI designer'}
-	src={'../static/resources/profile-pic.jpeg'}
+	src={'../../resources/profile-pic.jpeg'}
 	altText={'A picture of Vincenzo De Lucia'}
 />
 

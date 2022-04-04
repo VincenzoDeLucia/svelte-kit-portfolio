@@ -4,32 +4,32 @@
 
 	<div class="portfolio">
 		<a href="/portfolio-item" class="portfolio__item">
-			<img src="../static/resources/portfolio-project.jpg" alt="" class="portfolio__img" />
+			<img src="../../resources/portfolio-project.jpg" alt="" class="portfolio__img" />
 			<p class="portfolio-item__description">Here is something I did</p>
 		</a>
 
 		<a href="/portfolio-item" class="portfolio__item">
-			<img src="../static/resources/portfolio-project.jpg" alt="" class="portfolio__img" />
+			<img src="../../resources/portfolio-project.jpg" alt="" class="portfolio__img" />
 			<p class="portfolio-item__description">Here is something I did</p>
 		</a>
 
 		<a href="/portfolio-item" class="portfolio__item">
-			<img src="../static/resources/portfolio-project.jpg" alt="" class="portfolio__img" />
+			<img src="../../resources/portfolio-project.jpg" alt="" class="portfolio__img" />
 			<p class="portfolio-item__description">Here is something I did</p>
 		</a>
 
 		<a href="/portfolio-item" class="portfolio__item">
-			<img src="../static/resources/portfolio-project.jpg" alt="" class="portfolio__img" />
+			<img src="../../resources/portfolio-project.jpg" alt="" class="portfolio__img" />
 			<p class="portfolio-item__description">Here is something I did</p>
 		</a>
 
 		<a href="/portfolio-item" class="portfolio__item">
-			<img src="../static/resources/portfolio-project.jpg" alt="" class="portfolio__img" />
+			<img src="../../resources/portfolio-project.jpg" alt="" class="portfolio__img" />
 			<p class="portfolio-item__description">Here is something I did</p>
 		</a>
 
 		<a href="/portfolio-item" class="portfolio__item">
-			<img src="../static/resources/portfolio-project.jpg" alt="" class="portfolio__img" />
+			<img src="../../resources/portfolio-project.jpg" alt="" class="portfolio__img" />
 			<p class="portfolio-item__description">Here is something I did</p>
 		</a>
 	</div>
