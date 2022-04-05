@@ -34,6 +34,7 @@
 		align-items: center;
 		justify-content: space-between;
 		z-index: 10;
+		line-height: 1;
 	}
 
 	.footer a {
@@ -69,6 +70,7 @@
 	@media (max-width: 900px) {
 		.footer {
 			flex-direction: column;
+			line-height: 1.6;
 		}
 	}
 </style>

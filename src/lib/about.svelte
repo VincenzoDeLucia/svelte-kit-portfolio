@@ -75,5 +75,9 @@
 			z-index: 2;
 			grid-area: img;
 		}
+
+		.about-me__body {
+			padding: 0;
+		}
 	}
 </style>
