@@ -1,6 +1,6 @@
 <section class="my-work" id="work">
 	<h2 class="section__title">My work</h2>
-	<p class="section__subtitle section__subtitle--work">A selection of my works</p>
+	<p class="section__subtitle section__subtitle--work">A selection of my projects</p>
 
 	<div class="portfolio">
 		<a href="/portfolio-item" class="portfolio__item">
@@ -39,6 +39,7 @@
 	.my-work {
 		color: var(--color-light);
 		text-align: center;
+		justify-content: start;
 	}
 
 	.section__subtitle.section__subtitle--work {

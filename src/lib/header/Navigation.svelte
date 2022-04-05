@@ -88,7 +88,7 @@
 		margin: 0;
 		display: flex;
 		align-items: center;
-		gap: 1rem;
+		gap: 2rem;
 	}
 
 	.nav__link {

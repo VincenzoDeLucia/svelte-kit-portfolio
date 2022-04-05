@@ -43,7 +43,6 @@
 	}
 
 	.section__title--services {
-		color: var(--color-accent);
 		position: relative;
 	}
 
@@ -53,16 +52,24 @@
 		width: 2em;
 		height: 1px;
 		margin: 0.5em auto 1em;
-		background-color: var(--color-accent);
+		background-color: var(--color-light);
 	}
 
 	.my-services__descriptions {
 		margin-bottom: 4em;
 		display: grid;
-		gap: 2em;
+		gap: 6em;
 		max-width: 1000px;
 		grid-template-columns: 1fr 1fr;
 		grid-auto-columns: 50%;
+	}
+
+	.service h3 {
+		color: var(--color-accent);
+	}
+
+	.service p {
+		text-align: start;
 	}
 
 	@media (max-width: 800px) {

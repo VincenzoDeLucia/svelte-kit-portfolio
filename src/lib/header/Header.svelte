@@ -17,7 +17,7 @@
 		align-items: center;
 		justify-content: space-between;
 		background-color: var(--color-dark);
-		padding: 1em;
+		padding: 1em 2em;
 		width: 100%;
 		position: sticky;
 		top: 0;
