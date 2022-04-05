@@ -20,7 +20,11 @@
 			</p>
 		</div>
 
-		<img src="../../resources/profile-pic.jpeg" alt="" class="about-me__img" />
+		<img
+			src="../../resources/sparkler.jpg"
+			alt="A hand juts out of a body of water, holding a lit sparkler"
+			class="about-me__img"
+		/>
 	</div>
 </section>
 
@@ -36,6 +40,8 @@
 
 	.about-me__img {
 		box-shadow: var(--box-shadow);
+		height: 100%;
+		object-fit: cover;
 	}
 
 	.about-me__body {
