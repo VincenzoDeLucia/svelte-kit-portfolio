@@ -1,12 +1,5 @@
 <script>
-	import { page } from '$app/stores';
-
-	import { onMount } from 'svelte';
-	import Intro from '../../lib/intro.svelte';
-
-	onMount(() => {
-		console.log('boo!');
-	});
+	import Intro from '$lib/intro.svelte';
 </script>
 
 <div class="wrapper">
