@@ -29,7 +29,6 @@
 		color: var(--color-interactivity);
 		text-align: center;
 		padding: 0.5em 2em;
-		font-size: var(--font-size-h3);
 		display: flex;
 		align-items: center;
 		justify-content: space-between;

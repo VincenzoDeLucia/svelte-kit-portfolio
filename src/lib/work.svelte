@@ -3,48 +3,27 @@
 	<p class="section__subtitle section__subtitle--work">A selection of my projects</p>
 
 	<div class="portfolio">
-		<a href="/portfolio-item" class="portfolio__item">
-			<img src="../../resources/portfolio-project.jpg" alt="" class="portfolio__img" />
-			<p class="portfolio-item__description">Here is something I did</p>
-		</a>
-
-		<a href="/portfolio-item" class="portfolio__item">
-			<img src="../../resources/portfolio-project.jpg" alt="" class="portfolio__img" />
-			<p class="portfolio-item__description">Here is something I did</p>
-		</a>
-
-		<a href="/portfolio-item" class="portfolio__item">
-			<img src="../../resources/portfolio-project.jpg" alt="" class="portfolio__img" />
-			<p class="portfolio-item__description">Here is something I did</p>
-		</a>
-
-		<a href="/portfolio-item" class="portfolio__item">
-			<img src="../../resources/portfolio-project.jpg" alt="" class="portfolio__img" />
-			<p class="portfolio-item__description">Here is something I did</p>
-		</a>
-
-		<a href="/portfolio-item" class="portfolio__item">
-			<img src="../../resources/portfolio-project.jpg" alt="" class="portfolio__img" />
-			<p class="portfolio-item__description">Here is something I did</p>
-		</a>
-
-		<a href="/portfolio-item" class="portfolio__item">
-			<img src="../../resources/portfolio-project.jpg" alt="" class="portfolio__img" />
-			<p class="portfolio-item__description">Here is something I did</p>
-		</a>
+		{#each [1, 2, 3, 4, 5, 6] as itemId}
+			<a href="/portfolio-item/{itemId}" class="portfolio__item">
+				<img
+					loading="lazy"
+					src="../../resources/portfolio-project.jpg"
+					alt=""
+					class="portfolio__img"
+				/>
+				<p class="portfolio-item__description">Here is something I did</p>
+			</a>
+		{/each}
 	</div>
 </section>
 
 <style>
 	.my-work {
-		color: var(--color-light);
 		text-align: center;
-		justify-content: start;
 	}
 
 	.section__subtitle.section__subtitle--work {
 		color: var(--color-accent);
-		font-weight: var(--fw-bold);
 		margin-bottom: 1em;
 	}
 

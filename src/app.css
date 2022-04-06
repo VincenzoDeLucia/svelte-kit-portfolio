@@ -11,6 +11,7 @@
 	--font-family-secondary: 'Ubuntu', monospace;
 
 	--font-weight-reg: 300;
+	--font-weight-semibold: 500;
 	--font-weight-bold: 700;
 
 	--color-light: #fdfeff;
@@ -52,6 +53,7 @@ body {
 	color: var(--color-light);
 	font-family: var(--font-family-primary);
 	font-size: var(--font-size-body);
+	font-weight: var(--font-weight-reg);
 	line-height: 1.6;
 }
 
@@ -135,8 +137,8 @@ button.btn {
 	line-height: 1.2;
 }
 
-@media (min-width: 800px) {
+/* @media (min-width: 800px) {
 	section {
-		min-height: calc(100vh - 3.75rem - 2em - 1.5rem - 1em);
+		min-height: calc(100vh - 3.75rem - 2em - 1rem - 1em);
 	}
-}
+} */

@@ -5,7 +5,7 @@
 		navOpen = !navOpen;
 	};
 
-	const onNavItemClick = (item, targetElement) => {
+	const onNavItemClick = (item) => {
 		selected = item;
 		onNavToggle();
 	};
@@ -25,8 +25,8 @@
 		<li
 			class="nav__item"
 			class:nav__item--underline={selected === 'home'}
-			on:click={({ currentTarget }) => {
-				onNavItemClick('home', currentTarget);
+			on:click={() => {
+				onNavItemClick('home');
 			}}
 		>
 			<a href="/#home" class="nav__link">Home</a>
@@ -34,8 +34,8 @@
 		<li
 			class="nav__item"
 			class:nav__item--underline={selected === 'services'}
-			on:click={({ target }) => {
-				onNavItemClick('services', target);
+			on:click={() => {
+				onNavItemClick('services');
 			}}
 		>
 			<a href="/#services" class="nav__link">My Services</a>
@@ -43,8 +43,8 @@
 		<li
 			class="nav__item"
 			class:nav__item--underline={selected === 'about'}
-			on:click={({ target }) => {
-				onNavItemClick('about', target);
+			on:click={() => {
+				onNavItemClick('about');
 			}}
 		>
 			<a href="/#about" class="nav__link">About me</a>
@@ -52,8 +52,8 @@
 		<li
 			class="nav__item"
 			class:nav__item--underline={selected === 'work'}
-			on:click={({ target }) => {
-				onNavItemClick('work', target);
+			on:click={() => {
+				onNavItemClick('work');
 			}}
 		>
 			<a href="/#work" class="nav__link">My Work</a>
@@ -93,7 +93,7 @@
 
 	.nav__link {
 		color: inherit;
-		font-weight: var(--font-weight-bold);
+		font-weight: var(--font-weight-reg);
 		font-size: var(--font-size-h3);
 		text-decoration: none;
 		color: var(--color-interactivity);

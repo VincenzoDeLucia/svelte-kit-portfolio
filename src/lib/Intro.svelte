@@ -1,16 +1,16 @@
 <script>
-	export let id, title, subtitle, src, altText;
+	export let id, titleContent, subtitleContent, src, altText;
 </script>
 
 <section {id}>
 	<div class="intro">
 		<h1 class="section__title section__title--intro">
-			{@html title}
+			{@html titleContent}
 		</h1>
 		<p class="section__subtitle section__subtitle--intro">
-			{@html subtitle}
+			{@html subtitleContent}
 		</p>
-		<img {src} alt={altText} class="intro__img" />
+		<img loading="lazy" {src} alt={altText} class="intro__img" />
 	</div>
 </section>
 
@@ -50,6 +50,8 @@
 			min-width: 250px;
 			z-index: 2;
 			box-shadow: var(--box-shadow);
+			object-fit: cover;
+			height: 100%;
 		}
 
 		.section__subtitle--intro {

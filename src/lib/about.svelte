@@ -9,18 +9,24 @@
 			<p>
 				I have always been fascinated by the way people interact with any kind technology. I try to
 				be mindful of things we may give for granted even though they are the result of exceptional
-				thought and effort. This is what sparked my interest in the Web, a space in which I found
-				personal growth, countless opportunities and even life-long friendships.
+				thought and effort. This is what sparked my interest in the <strong>Web</strong>, a space in
+				which I found personal <strong>growth</strong>, countless <strong>opportunities</strong> and
+				even life-long <strong>friendships</strong>.
 			</p>
 			<p>
-				The Web shapes societies in ways that are a direct reflection of how inclusive, democratic
-				and accessible the platform itself is. I believe in its potential to be a great, unifying
-				force and one of the greatest catalysts for human progress. This is why I like curating
-				experiences and crafting interfaces that are accessible, functional and performant.
+				The Web shapes societies in ways that are a direct reflection of how <strong
+					>inclusive</strong
+				>
+				and <strong>democratic</strong> the platform itself is. I believe in its potential to be a
+				great, unifying force and one of the greatest catalysts for human progress. This is why I
+				like curating experiences and crafting interfaces that are <strong>accessible</strong>,
+				<strong>functional</strong>
+				and <strong>performant</strong>.
 			</p>
 		</div>
 
 		<img
+			loading="lazy"
 			src="../../resources/sparkler.jpg"
 			alt="A hand juts out of a body of water, holding a lit sparkler"
 			class="about-me__img"
