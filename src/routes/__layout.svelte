@@ -2,7 +2,7 @@
 	import '../app.css';
 	import '../normalize.css';
 	import Header from '$lib/header/Header.svelte';
-	import Footer from '$lib/footer.svelte';
+	import Footer from '../lib/footer.svelte';
 </script>
 
 <Header />
