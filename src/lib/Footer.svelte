@@ -38,7 +38,6 @@
 
 	.footer a {
 		color: inherit;
-		text-decoration: none;
 	}
 
 	.footer__link:hover {

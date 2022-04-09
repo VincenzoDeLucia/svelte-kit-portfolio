@@ -3,10 +3,10 @@
 </script>
 
 <header>
-	<div class="logo">
+	<a class="logo" href="/" alt="Back to the homepage">
 		<!-- <img src="" alt="" /> -->
 		<p class="logo__placeholder">VDL</p>
-	</div>
+	</a>
 
 	<Navigation />
 </header>
@@ -23,6 +23,10 @@
 		top: 0;
 		left: 0;
 		z-index: 10;
+	}
+
+	.logo:focus {
+		outline-offset: 0.5em;
 	}
 
 	.logo__placeholder {

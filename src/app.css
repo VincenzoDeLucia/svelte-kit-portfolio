@@ -84,8 +84,8 @@ h3 {
 }
 
 :focus {
-	outline: 3px solid var(--color-interactivity);
-	outline-offset: 3px;
+	outline: 2px solid var(--color-interactivity);
+	outline-offset: 2px;
 }
 
 /* Typography */
@@ -100,6 +100,10 @@ h2 {
 
 h3 {
 	font-size: var(--font-size-h3);
+}
+
+a {
+	text-decoration: none;
 }
 
 a.btn,
@@ -136,9 +140,3 @@ button.btn {
 	padding: 0.5rem 1rem;
 	line-height: 1.2;
 }
-
-/* @media (min-width: 800px) {
-	section {
-		min-height: calc(100vh - 3.75rem - 2em - 1rem - 1em);
-	}
-} */

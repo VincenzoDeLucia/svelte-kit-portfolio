@@ -95,7 +95,6 @@
 		color: inherit;
 		font-weight: var(--font-weight-reg);
 		font-size: var(--font-size-h3);
-		text-decoration: none;
 		color: var(--color-interactivity);
 	}
 
@@ -105,6 +104,24 @@
 
 	.nav__item {
 		white-space: nowrap;
+		position: relative;
+	}
+
+	.nav__item:after {
+		content: '';
+		background-color: var(--color-interactivity);
+		width: 100%;
+		height: 2px;
+		transform: scaleX(0);
+		position: absolute;
+		bottom: -2px; /* matching the offset on :focus */
+		left: 0;
+		transition: transform 0.3s ease-in;
+	}
+
+	.nav__item.nav__item--underline:after {
+		transform: scaleX(1);
+		transition: transform 0.3s ease-out;
 	}
 
 	.nav-toggle {
