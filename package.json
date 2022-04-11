@@ -1,28 +1,41 @@
 {
-	"name": "svelte-kit-portfolio",
-	"version": "0.0.1",
-	"scripts": {
-		"dev": "svelte-kit dev",
-		"build": "svelte-kit build",
-		"package": "svelte-kit package",
-		"preview": "svelte-kit preview",
-		"prepare": "svelte-kit sync",
-		"lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
-		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
-	},
-	"devDependencies": {
-		"@sveltejs/adapter-vercel": "next",
-		"@sveltejs/kit": "next",
-		"eslint": "^7.32.0",
-		"eslint-config-prettier": "^8.3.0",
-		"eslint-plugin-svelte3": "^3.2.1",
-		"prettier": "^2.5.1",
-		"prettier-plugin-svelte": "^2.5.0",
-		"svelte": "^3.46.0"
-	},
-	"type": "module",
-	"dependencies": {
-		"@lukeed/uuid": "^2.0.0",
-		"cookie": "^0.4.1"
-	}
+  "name": "svelte-kit-portfolio",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "package": "svelte-kit package",
+    "preview": "svelte-kit preview",
+    "prepare": "svelte-kit sync",
+    "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
+    "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-vercel": "next",
+    "@sveltejs/kit": "next",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-svelte3": "^3.2.1",
+    "prettier": "^2.5.1",
+    "prettier-plugin-svelte": "^2.5.0",
+    "svelte": "^3.46.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "@lukeed/uuid": "^2.0.0",
+    "cookie": "^0.4.1"
+  },
+  "description": "This is portfolio website to tell my story and showcase my skills. It started as a Svelte project and it was migrated to SvelteKit to add routing.",
+  "main": "svelte.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VincenzoDeLucia/svelte-kit-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VincenzoDeLucia/svelte-kit-portfolio/issues"
+  },
+  "homepage": "https://github.com/VincenzoDeLucia/svelte-kit-portfolio#readme"
 }
