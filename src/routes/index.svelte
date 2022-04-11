@@ -1,11 +1,11 @@
 <script>
-	import Intro from '$lib/Intro.svelte';
-	import Services from '$lib/Services.svelte';
-	import About from '$lib/About.svelte';
-	import Work from '$lib/Work.svelte';
+	import Introduction from '$lib/Introduction.svelte';
+	import Experience from '$lib/Experience.svelte';
+	import AboutMe from '$lib/AboutMe.svelte';
+	import WorkSection from '$lib/WorkSection.svelte';
 </script>
 
-<Intro
+<Introduction
 	id="home"
 	titleContent={'Hi, I am<br/><strong>Vincenzo</strong>'}
 	subtitleContent={'front-end dev<br />UX/UI designer'}
@@ -13,8 +13,8 @@
 	altText={'A picture of Vincenzo De Lucia'}
 />
 
-<Services />
+<Experience />
 
-<About />
+<AboutMe />
 
-<Work />
+<WorkSection />
