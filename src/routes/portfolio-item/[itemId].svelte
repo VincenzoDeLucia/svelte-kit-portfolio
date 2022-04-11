@@ -1,5 +1,5 @@
 <script>
-	import Intro from '$lib/intro.svelte';
+	import Intro from '$lib/Introduction.svelte';
 </script>
 
 <div class="wrapper">
