@@ -29,7 +29,7 @@
 				onNavItemClick('home');
 			}}
 		>
-			<a href="/#home" class="nav__link">Home</a>
+			<a href="/#home" class="nav__link" target="_self">Home</a>
 		</li>
 		<li
 			class="nav__item"
@@ -38,7 +38,7 @@
 				onNavItemClick('services');
 			}}
 		>
-			<a href="/#services" class="nav__link">My Services</a>
+			<a href="/#services" class="nav__link" target="_self">My Services</a>
 		</li>
 		<li
 			class="nav__item"
@@ -47,7 +47,7 @@
 				onNavItemClick('about');
 			}}
 		>
-			<a href="/#about" class="nav__link">About me</a>
+			<a href="/#about" class="nav__link" target="_self">About me</a>
 		</li>
 		<li
 			class="nav__item"
@@ -56,7 +56,7 @@
 				onNavItemClick('work');
 			}}
 		>
-			<a href="/#work" class="nav__link">My Work</a>
+			<a href="/#work" class="nav__link" target="_self">My Work</a>
 		</li>
 		<li class="nav__item nav__item--web-presence">
 			<a
@@ -70,10 +70,15 @@
 				href="https://www.linkedin.com/in/vincenzo-de-lucia/"
 				class="footer__link"
 				alt="LinkedIn profile"
+				target="_blank"
 			>
 				<i class="fa-brands fa-linkedin" />
 			</a>
-			<a href="https://github.com/VincenzoDeLucia" class="footer__link" alt="GitHub profile"
+			<a
+				href="https://github.com/VincenzoDeLucia"
+				class="footer__link"
+				alt="GitHub profile"
+				target="_blank"
 				><i class="fa-brands fa-github" />
 			</a>
 		</li>

@@ -5,13 +5,13 @@
 	</a>
 	<ul class="web-presence">
 		<li class="web-presence__item">
-			<a href="https://www.linkedin.com/in/vincenzo-de-lucia/" class="footer__link">
+			<a href="https://www.linkedin.com/in/vincenzo-de-lucia/" class="footer__link" target="_blank">
 				<i class="fa-brands fa-linkedin" />
 				LinkedIn
 			</a>
 		</li>
 		<li class="web-presence__item">
-			<a href="https://github.com/VincenzoDeLucia" class="footer__link"
+			<a href="https://github.com/VincenzoDeLucia" class="footer__link" target="_blank"
 				><i class="fa-brands fa-github" />
 				GitHub
 			</a>
