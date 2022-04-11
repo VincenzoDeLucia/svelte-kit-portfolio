@@ -1,8 +1,8 @@
 <script>
-	import Intro from '$lib/intro.svelte';
-	import Services from '$lib/services.svelte';
-	import About from '$lib/about.svelte';
-	import Work from '$lib/work.svelte';
+	import Intro from '$lib/Intro.svelte';
+	import Services from '$lib/Services.svelte';
+	import About from '$lib/About.svelte';
+	import Work from '$lib/Work.svelte';
 </script>
 
 <Intro
