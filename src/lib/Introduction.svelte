@@ -51,7 +51,6 @@
 			z-index: 2;
 			box-shadow: var(--box-shadow);
 			object-fit: cover;
-			height: 100%;
 		}
 
 		.section__subtitle--intro {

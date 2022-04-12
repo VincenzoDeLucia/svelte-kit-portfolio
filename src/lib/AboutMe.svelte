@@ -46,8 +46,9 @@
 
 	.about-me__img {
 		box-shadow: var(--box-shadow);
-		height: 100%;
 		object-fit: cover;
+		width: 100%;
+		height: auto;
 	}
 
 	.about-me__body {
@@ -86,6 +87,8 @@
 			position: relative;
 			z-index: 2;
 			grid-area: img;
+			object-fit: cover;
+			height: clamp(610px, 50vh, 1000px);
 		}
 
 		.about-me__body {
