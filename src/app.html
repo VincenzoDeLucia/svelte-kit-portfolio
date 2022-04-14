@@ -11,11 +11,21 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Jost:wght@300;500&family=Ubuntu:wght@700&display=swap"
-			rel="stylesheet"
+			rel="preload"
+			as="style"
+			onload="this.onload=null;this.rel='stylesheet'"
 		/>
+		<!-- fallback for fonts in case javascript s disabled -->
+		<noscript>
+			<link
+				href="https://fonts.googleapis.com/css2?family=Jost:wght@300;500&family=Ubuntu:wght@700&display=swap"
+				rel="stylesheet"
+				type="text/css"
+			/>
+		</noscript>
 
 		<!-- Font Awesome -->
-		<script src="https://kit.fontawesome.com/ede91e6248.js" crossorigin="anonymous"></script>
+		<script src="https://kit.fontawesome.com/ede91e6248.js" crossorigin="anonymous" defer></script>
 		%svelte.head%
 	</head>
 	<body>

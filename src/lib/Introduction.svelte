@@ -10,7 +10,7 @@
 		<p class="section__subtitle section__subtitle--intro">
 			{@html subtitleContent}
 		</p>
-		<img loading="lazy" {src} alt={altText} class="intro__img" />
+		<img {src} alt={altText} class="intro__img" />
 	</div>
 </section>
 
