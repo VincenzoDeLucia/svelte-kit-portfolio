@@ -43,16 +43,7 @@
 	}
 
 	.section__title--services {
-		position: relative;
-	}
-
-	.section__title--services::after {
-		content: '';
-		display: block;
-		width: 2em;
-		height: 1px;
-		margin: 0.5em auto 1em;
-		background-color: var(--color-light);
+		margin-bottom: 2em;
 	}
 
 	.my-services__descriptions {
