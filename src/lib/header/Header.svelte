@@ -1,12 +1,9 @@
 <script>
 	import Navigation from './Navigation.svelte';
-	const handleFocus = () => {
-		console.log('focus');
-	};
 </script>
 
 <header>
-	<a class="logo" href="/" alt="Back to the homepage" on:focus={handleFocus}>
+	<a class="logo" href="/" alt="Back to the homepage">
 		<!-- <img src="" alt="" /> -->
 		<p class="logo__placeholder">VDL</p>
 	</a>
