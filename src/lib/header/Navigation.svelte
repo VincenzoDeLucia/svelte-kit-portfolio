@@ -1,13 +1,8 @@
 <script>
+	import { currentSection } from '../../currentSectionStore';
 	let navOpen = false;
-	let selected = 'home';
 	const onNavToggle = () => {
 		navOpen = !navOpen;
-	};
-
-	const onNavItemClick = (item) => {
-		selected = item;
-		onNavToggle();
 	};
 </script>
 
@@ -22,40 +17,16 @@
 
 <nav class="nav" class:nav--open={navOpen}>
 	<ul class="nav__list">
-		<li
-			class="nav__item"
-			class:nav__item--underline={selected === 'home'}
-			on:click={() => {
-				onNavItemClick('home');
-			}}
-		>
+		<li class="nav__item" class:nav__item--underline={$currentSection === 'home'}>
 			<a href="/#home" class="nav__link" target="_self">Home</a>
 		</li>
-		<li
-			class="nav__item"
-			class:nav__item--underline={selected === 'services'}
-			on:click={() => {
-				onNavItemClick('services');
-			}}
-		>
+		<li class="nav__item" class:nav__item--underline={$currentSection === 'services'}>
 			<a href="/#services" class="nav__link" target="_self">My Services</a>
 		</li>
-		<li
-			class="nav__item"
-			class:nav__item--underline={selected === 'about'}
-			on:click={() => {
-				onNavItemClick('about');
-			}}
-		>
+		<li class="nav__item" class:nav__item--underline={$currentSection === 'about'}>
 			<a href="/#about" class="nav__link" target="_self">About me</a>
 		</li>
-		<li
-			class="nav__item"
-			class:nav__item--underline={selected === 'work'}
-			on:click={() => {
-				onNavItemClick('work');
-			}}
-		>
+		<li class="nav__item" class:nav__item--underline={$currentSection === 'work'}>
 			<a href="/#work" class="nav__link" target="_self">My Work</a>
 		</li>
 		<li class="nav__item nav__item--web-presence">
