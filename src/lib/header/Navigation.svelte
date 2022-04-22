@@ -17,16 +17,32 @@
 
 <nav class="nav" class:nav--open={navOpen}>
 	<ul class="nav__list">
-		<li class="nav__item" class:nav__item--underline={$currentSection === 'home'}>
+		<li
+			class="nav__item"
+			class:nav__item--underline={$currentSection === 'home'}
+			on:click={onNavToggle}
+		>
 			<a href="/#home" class="nav__link" target="_self">Home</a>
 		</li>
-		<li class="nav__item" class:nav__item--underline={$currentSection === 'services'}>
+		<li
+			class="nav__item"
+			class:nav__item--underline={$currentSection === 'services'}
+			on:click={onNavToggle}
+		>
 			<a href="/#services" class="nav__link" target="_self">My Services</a>
 		</li>
-		<li class="nav__item" class:nav__item--underline={$currentSection === 'about'}>
+		<li
+			class="nav__item"
+			class:nav__item--underline={$currentSection === 'about'}
+			on:click={onNavToggle}
+		>
 			<a href="/#about" class="nav__link" target="_self">About me</a>
 		</li>
-		<li class="nav__item" class:nav__item--underline={$currentSection === 'work'}>
+		<li
+			class="nav__item"
+			class:nav__item--underline={$currentSection === 'work'}
+			on:click={onNavToggle}
+		>
 			<a href="/#work" class="nav__link" target="_self">My Work</a>
 		</li>
 		<li class="nav__item nav__item--web-presence">
